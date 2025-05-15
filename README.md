@@ -3,7 +3,7 @@ Just a silly little game about content farming with MrBeast.<br/>
 It also has texture packs if you can figure it out.
 
 ## Building from Source
-1. Go to the test branch then download it using git or just as a zip.<br/>
+1. Go to the main branch then download it using git or just as a zip.<br/>
 `git clone https://github.com/I-Bims/MrBeastSimulator.git`
 2. You need to download the textures seperatly unfortunally because the files are too big.<br/>
    To do that you need to go to this link: [Textures](https://drive.google.com/file/d/1FSBybNQ0Ml9k5qRybyvk65wR-m6pqJnL/view?usp=sharing)<br/>
