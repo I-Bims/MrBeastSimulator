@@ -34,10 +34,10 @@ It also has texture packs if you can figure it out.
 4. Then install java I haven't testet many versions but 21 and 24 work fine
 5. Next run these commands:
    ```
-   javac *.class
+   javac *.java
    java -cp . Game
    ```
 6. Your done! Hope it works well :)
 
 ## Installation
-Or you could just download `MrBeast.jar` from the releases
+Or you could just download `MrBeast.jar` from the releases. Then execute it with java. Textures are included in jar file!
