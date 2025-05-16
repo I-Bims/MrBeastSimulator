@@ -1,17 +1,26 @@
 # Mr Beast Simulator
-Just a silly little game about content farming with MrBeast.<br/>
+Just a silly little game about collecting as many likes as possible with MrBeast.<br/>
 It also has texture packs if you can figure it out.
 
+## Controls
+```
+movement:   arrowkeys or wasd
+jump:       space
+shop:       b
+```
+## Installation
+You just need to download `MrBeast.jar` from the releases. Then execute it with java. Textures are included in jar file!
+
 ## Building from Source
-1. Go to the main branch then download it using git or just as a zip.<br/>
+1. Download the source code using git or just as a zip.<br/>
 `git clone https://github.com/I-Bims/MrBeastSimulator.git`
-2. You need to download the textures seperatly unfortunally because the files are too big.<br/>
+2. You need to download the textures seperatly unfortunally, because the files are too big.<br/>
    To do that you need to go to this link: [Textures](https://drive.google.com/file/d/1FSBybNQ0Ml9k5qRybyvk65wR-m6pqJnL/view?usp=sharing)<br/>
    then place the unzipped folder with all the other files like this:
 
 ```
   ├── build.sh
-  ├── default
+  ├── [texture-folder]
   │   ├── d_dislike.png
   │   ├── index.conf
   .   ├── l_like.png
@@ -31,7 +40,7 @@ It also has texture packs if you can figure it out.
   ├── Ui.java
   └── Util.java
    ```
-4. Then install java I haven't testet many versions but 21 and 24 work fine
+4. Then install java I haven't testet many versions but 21 works fine
 5. Next run these commands:
    ```
    javac *.java
@@ -39,8 +48,7 @@ It also has texture packs if you can figure it out.
    ```
 6. Your done! Hope it works well :)
 
-## Installation
-Or you could just download `MrBeast.jar` from the releases. Then execute it with java. Textures are included in jar file!
+
 
 
 ## Adding Texture Packs
@@ -66,3 +74,6 @@ dislikes:        d_filename.png or d_filename.jpg
 endscreen-gif:   o_filename.gif
 ```
 All gifs can also be switched out for pngs
+
+## Screenshots
+![Screenshot](screenshots/2025-05-16-184723_hyprshot.png)
