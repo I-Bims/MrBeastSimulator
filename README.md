@@ -41,3 +41,28 @@ It also has texture packs if you can figure it out.
 
 ## Installation
 Or you could just download `MrBeast.jar` from the releases. Then execute it with java. Textures are included in jar file!
+
+
+## Adding Texture Packs
+All folders in the same directory as the class files\
+with an `index.conf` file are considered a Texture Pack.\
+The `index.conf` file can have these options:
+```
+   enabled=true
+   video.enabled=true
+   likes.enabled=true
+   dislikes.enabled=true
+   player.enabled=true
+   gameover.enabled=true
+```
+If the file does not contian an option then this option is considered false.\
+The texture files in the texture pack are prefixed like this:
+```
+player:          p_filename.png or p_filename.jpg 
+videos(gif):     v_filename.gif
+audio(wav):      s_v_filename.gif.wav (s_[filename of the corresponding video].wav)
+likes:           l_filename.png or l_filename.jpg
+dislikes:        d_filename.png or d_filename.jpg
+endscreen-gif:   o_filename.gif
+```
+All gifs can also be switched out for pngs
