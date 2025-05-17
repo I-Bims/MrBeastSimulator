@@ -72,5 +72,17 @@ All gifs can also be switched out for pngs
 
 ## Screenshots
 ![Screenshot](screenshots/2025-05-16-184723_hyprshot.png)
+## Known Issues
+### Sound desyncs from the videos after a short while
+Unfortunally I can't really do much about it, because I didn't want\
+to use any third-party-software just stuff that is already in java.\
+I did this to keep the complexity low and eliminate any unknowns.\
+And with native java the best you can do is displaying gifs and these\
+don't have sound.\
+If it is somehow possible to display a mp4-file let me know.
 
-
+### Gifs always are synced
+Another syncing problem\
+when I render the gifs they always start in sync.\
+Even if I load them at different times.\
+This one could also be fixed with mp4-rendering
