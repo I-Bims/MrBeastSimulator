@@ -14,17 +14,18 @@ You just need to download `MrBeast.jar` from the releases. Then execute it with 
 ## Building from Source
 1. Download the source code using git or just as a zip.<br/>
 `git clone https://github.com/I-Bims/MrBeastSimulator.git`
-2. You need to download the textures seperatly unfortunally, because the files are too big.<br/>
-   To do that you need to go to this link: [Textures](https://drive.google.com/file/d/1FSBybNQ0Ml9k5qRybyvk65wR-m6pqJnL/view?usp=sharing)<br/>
-   then place the unzipped folder with all the other files like this:
+2. You need to download the textures seperatly unfortunally because the files are too big.<br/>
+   To do that you need to go to this link: [Textures](https://drive.google.com/file/d/1FSBybNQ0Ml9k5qRybyvk65wR-m6pqJnL/view?usp=sharing)
+3. Create a build folder and put the texture pack in there like this:
 
 ```
   ├── build.sh
-  ├── [texture-folder]
-  │   ├── d_dislike.png
-  │   ├── index.conf
-  .   ├── l_like.png
-  .   ├── o_hopeless.gif
+  ├── build
+      ├── default
+  │   │   ├── d_dislike.png
+  │   │   ├── index.conf
+  .   .   ├── l_like.png
+  .   .   ├── o_hopeless.gif
   .
   ├── Dislike.java
   ├── Game.java
@@ -41,14 +42,8 @@ You just need to download `MrBeast.jar` from the releases. Then execute it with 
   └── Util.java
    ```
 4. Then install java I haven't testet many versions but 21 works fine
-5. Next run these commands:
-   ```
-   javac *.java
-   java -cp . Game
-   ```
+5. Next execute the `build.sh` or the `build.bat` depending if you are on Windows
 6. Your done! Hope it works well :)
-
-
 
 
 ## Adding Texture Packs
@@ -77,3 +72,5 @@ All gifs can also be switched out for pngs
 
 ## Screenshots
 ![Screenshot](screenshots/2025-05-16-184723_hyprshot.png)
+
+
