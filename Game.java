@@ -44,11 +44,15 @@ class Game {
     dislikes = new ArrayList<ImageIcon>();
     playerIcon = new ArrayList<ImageIcon>();
     audio = new HashMap<ImageIcon, Clip>();
-    Util.loadTextures(videos, likes, dislikes, audio, playerIcon, ui.gameoverIcon);
+    if(Util.isRunningInJar())
+      Util.loadTexturesJar(videos, likes, dislikes, audio, playerIcon, ui.gameoverIcon);
+    else
+      Util.loadTextures(videos, likes, dislikes, audio, playerIcon, ui.gameoverIcon);
     player.setImage(playerIcon.get(0));
     System.out.println(player.image);
     System.out.println(playerIcon.get(0));
     System.out.println(videos.get(0));
+
   }
 
   public void start(String difficulty, Ui ui) throws InterruptedException{
